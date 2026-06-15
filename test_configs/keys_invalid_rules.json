@@ -1,0 +1,26 @@
+{
+  "this_service_is_lowercase": {
+    "url": "https://github.com/org/lowercase",
+    "baseBranch": "main",
+    "featureBranch": "x",
+    "_comment": "INVALID: not all caps"
+  },
+  "THIS_KEY_NAME_IS_DEFINITELY_LONGER_THAN_THIRTY_CHARS": {
+    "url": "https://github.com/org/too-long",
+    "baseBranch": "main",
+    "featureBranch": "x",
+    "_comment": "INVALID: 52 chars, exceeds the 30 char limit"
+  },
+  "BAD#KEY@WITH%SPECIALS!": {
+    "url": "https://github.com/org/bad-specials",
+    "baseBranch": "main",
+    "featureBranch": "x",
+    "_comment": "INVALID: uses # @ % ! which are not in the allowed set ( _ - . / )"
+  },
+  "KEY WITH SPACES": {
+    "url": "https://github.com/org/spaces",
+    "baseBranch": "main",
+    "featureBranch": "x",
+    "_comment": "INVALID: spaces are not allowed"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "UTILS_SERVICE": {
+    "url": "https://github.com/Shreys-ai/Dev-Repo-Test-Selection",
+    "baseBranch": "main",
+    "featureBranch": "tasks_branch"
+  },
+  "AUTH-SERVICE": {
+    "url": "https://github.com/org/auth-service",
+    "baseBranch": "main",
+    "featureBranch": "feature/oauth"
+  },
+  "PAYMENTS.GATEWAY": {
+    "url": "https://github.com/org/payments-gateway",
+    "baseBranch": "main",
+    "featureBranch": "release/v2"
+  },
+  "ORG/BILLING": {
+    "url": "https://github.com/org/billing",
+    "baseBranch": "main",
+    "featureBranch": "invoice-fix"
+  },
+  "EXACTLY_THIRTY_CHARS_LONG_KEY1": {
+    "url": "https://github.com/org/boundary",
+    "baseBranch": "main",
+    "featureBranch": "boundary-test"
+  }
+}

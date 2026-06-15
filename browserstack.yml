@@ -1,0 +1,28 @@
+userName: ${BROWSERSTACK_USERNAME}
+accessKey: ${BROWSERSTACK_ACCESS_KEY}
+
+projectName: MCP-TS Server Tests - Playwright-Pytest
+buildName: MCP-TS Server Tests - Playwright-Pytest
+buildIdentifier: '${BUILD_NUMBER}'
+framework: pytest
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: playwright-firefox
+    browserVersion: latest
+parallelsPerPlatform: 20
+
+browserstackLocal: true
+
+source: pytest-playwright-browserstack:sample-sdk:v1.0
+debug: false
+networkLogs: false
+consoleLogs: errors
+
+testOrchestrationOptions:
+  runSmartSelection:
+    enabled: false
+    mode: 'relevantOnly'
+    source: 'test.json' #(github app approach)
+#    source: #(cloning approach)
+#      - '/Users/shreyasdhoke/Desktop/Dev-Repo-Test-Selection'

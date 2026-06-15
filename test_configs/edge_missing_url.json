@@ -1,0 +1,6 @@
+{
+  "UTILS_SERVICE": {
+    "baseBranch": "main",
+    "featureBranch": "tasks_branch"
+  }
+}

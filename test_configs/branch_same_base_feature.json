@@ -1,0 +1,12 @@
+{
+  "UTILS_SERVICE": {
+    "url": "https://github.com/Shreys-ai/Dev-Repo-Test-Selection",
+    "baseBranch": "main",
+    "featureBranch": "main"
+  },
+  "API": {
+    "url": "https://github.com/org/api",
+    "baseBranch": "develop",
+    "featureBranch": "develop"
+  }
+}

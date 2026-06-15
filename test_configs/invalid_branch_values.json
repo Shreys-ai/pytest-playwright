@@ -1,0 +1,22 @@
+{
+  "UTILS_SERVICE": {
+    "url": "https://github.com/Shreys-ai/Dev-Repo-Test-Selection",
+    "baseBranch": "main",
+    "featureBranch": "feature branch with spaces"
+  },
+  "API": {
+    "url": "https://github.com/org/api",
+    "baseBranch": "..invalid//ref",
+    "featureBranch": "hotfix-API"
+  },
+  "AUTH_SERVICE": {
+    "url": "https://github.com/org/auth-service",
+    "baseBranch": "main",
+    "featureBranch": null
+  },
+  "WEB_FRONTEND": {
+    "url": "https://github.com/org/web-frontend",
+    "baseBranch": 12345,
+    "featureBranch": "ui-revamp"
+  }
+}

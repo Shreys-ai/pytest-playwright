@@ -9,12 +9,12 @@
     "baseBranch": "main",
     "featureBranch": "hotfix-API"
   },
-  "AUTH-SERVICE": {
+  "AUTH_SERVICE": {
     "url": "https://github.com/org/auth-service",
     "baseBranch": "develop",
     "featureBranch": "feature/oauth"
   },
-  "PAYMENTS.GATEWAY": {
+  "PAYMENTS_GATEWAY": {
     "url": "https://github.com/org/payments-gateway",
     "baseBranch": "main",
     "featureBranch": "release/v2"
@@ -23,5 +23,10 @@
     "url": "https://github.com/org/web-frontend",
     "baseBranch": "main",
     "featureBranch": "ui-revamp"
+  },
+    "UTILS_SERVICE": {
+    "url": "https://github.com/Shreys-ai/Dev-Repo-Test-Selection",
+    "baseBranch": "develop",
+    "featureBranch": "latest_duplicate_should_win"
   }
 }

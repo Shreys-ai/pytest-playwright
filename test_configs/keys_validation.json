@@ -1,0 +1,62 @@
+{
+  "UTILS_SERVICE": {
+    "url": "https://github.com/Shreys-ai/Dev-Repo-Test-Selection",
+    "baseBranch": "main",
+    "featureBranch": "tasks_branch"
+  },
+  "ORG_BILLING_99": {
+    "url": "https://github.com/org/billing",
+    "baseBranch": "main",
+    "featureBranch": "invoice-fix"
+  },
+  "EXACTLY_THIRTY_CHARS_LONG_KEY1": {
+    "url": "https://github.com/org/boundary",
+    "baseBranch": "main",
+    "featureBranch": "boundary-test"
+  },
+  "this_service_is_lowercase": {
+    "url": "https://github.com/org/lowercase",
+    "baseBranch": "main",
+    "featureBranch": "x"
+  },
+  "THIS_KEY_NAME_IS_DEFINITELY_LONGER_THAN_THIRTY_CHARS": {
+    "url": "https://github.com/org/too-long",
+    "baseBranch": "main",
+    "featureBranch": "x"
+  },
+  "AUTH-SERVICE": {
+    "url": "https://github.com/org/auth-service",
+    "baseBranch": "main",
+    "featureBranch": "x"
+  },
+  "PAYMENTS.GATEWAY": {
+    "url": "https://github.com/org/payments",
+    "baseBranch": "main",
+    "featureBranch": "x"
+  },
+  "ORG/BILLING": {
+    "url": "https://github.com/org/billing",
+    "baseBranch": "main",
+    "featureBranch": "x"
+  },
+  "BAD#KEY@WITH%SPECIALS!": {
+    "url": "https://github.com/org/bad-specials",
+    "baseBranch": "main",
+    "featureBranch": "x"
+  },
+  "KEY WITH SPACES": {
+    "url": "https://github.com/org/spaces",
+    "baseBranch": "main",
+    "featureBranch": "x"
+  },
+  "SAME_BRANCH": {
+    "url": "https://github.com/org/same-branch",
+    "baseBranch": "main",
+    "featureBranch": "main"
+  },
+  "SAME_BRANCH_DEV": {
+    "url": "https://github.com/org/same-branch-dev",
+    "baseBranch": "develop",
+    "featureBranch": "develop"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "SPACES_URL": {
+    "url": "https://github.com/org/ repo with spaces",
+    "baseBranch": "main",
+    "featureBranch": "feature-x"
+  },
+  "SPACES_BASE": {
+    "url": "https://github.com/org/repo",
+    "baseBranch": "base branch with spaces",
+    "featureBranch": "feature-x"
+  },
+  "SPACES_FEATURE": {
+    "url": "https://github.com/org/repo",
+    "baseBranch": "main",
+    "featureBranch": "feature branch with spaces"
+  },
+  "NULL_URL": {
+    "url": null,
+    "baseBranch": "main",
+    "featureBranch": "feature-x"
+  },
+  "NULL_BASE": {
+    "url": "https://github.com/org/repo",
+    "baseBranch": null,
+    "featureBranch": "feature-x"
+  },
+  "NULL_FEATURE": {
+    "url": "https://github.com/org/repo",
+    "baseBranch": "main",
+    "featureBranch": null
+  },
+  "NUMBER_URL": {
+    "url": 12345,
+    "baseBranch": "main",
+    "featureBranch": "feature-x"
+  },
+  "NUMBER_BASE": {
+    "url": "https://github.com/org/repo",
+    "baseBranch": 12345,
+    "featureBranch": "feature-x"
+  },
+  "NUMBER_FEATURE": {
+    "url": "https://github.com/org/repo",
+    "baseBranch": "main",
+    "featureBranch": 12345
+  }
+}

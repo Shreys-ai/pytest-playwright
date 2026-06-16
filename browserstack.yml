@@ -23,6 +23,6 @@ testOrchestrationOptions:
   runSmartSelection:
     enabled: false
     mode: 'relevantOnly'
-    source: 'test.json' #(github app approach)
+    source: 'test_configs/test.json' #(github app approach)
 #    source: #(cloning approach)
 #      - '/Users/shreyasdhoke/Desktop/Dev-Repo-Test-Selection'

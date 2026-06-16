@@ -1,0 +1,29 @@
+{
+  "MISSING_URL": {
+    "baseBranch": "main",
+    "featureBranch": "feature-x"
+  },
+  "MISSING_BASE_BRANCH": {
+    "url": "https://github.com/org/repo",
+    "featureBranch": "feature-x"
+  },
+  "MISSING_FEATURE_BRANCH": {
+    "url": "https://github.com/org/repo",
+    "baseBranch": "main"
+  },
+  "EMPTY_URL": {
+    "url": "",
+    "baseBranch": "main",
+    "featureBranch": "feature-x"
+  },
+  "EMPTY_BASE_BRANCH": {
+    "url": "https://github.com/org/repo",
+    "baseBranch": "",
+    "featureBranch": "feature-x"
+  },
+  "EMPTY_FEATURE_BRANCH": {
+    "url": "https://github.com/org/repo",
+    "baseBranch": "main",
+    "featureBranch": ""
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "EXTRA_PARAM": {
+    "url": "https://github.com/Shreys-ai/Dev-Repo-Test-Selection",
+    "baseBranch": "main",
+    "featureBranch": "tasks_branch",
+    "unknownField": "should-be-ignored"
+  },
+  "MULTIPLE_EXTRA_PARAMS": {
+    "url": "https://github.com/org/repo",
+    "baseBranch": "main",
+    "featureBranch": "feature-x",
+    "foo": "bar",
+    "priority": 5,
+    "nested": { "a": 1 }
+  }
+}
